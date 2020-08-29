@@ -24,7 +24,7 @@ export default function PillSection() {
       </div>
       <div className='pillResponsive'>
         <img src={product} alt='product img' className='productImage' />
-        <div style={{ wrap: 'wrap', fontWeight: 'bold' }}>
+        <div style={{ fontWeight: 'bold' }}>
           <Badge
             pill
             variant='light'

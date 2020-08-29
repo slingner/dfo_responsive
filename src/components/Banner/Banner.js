@@ -23,42 +23,34 @@ export default function Banner() {
       >
         <div className='injuryFormResponsive'>
           <div className='nomobile'>
-            <h1
-              style={{
-                color: 'white',
-                marginLeft: '15%',
-                width: '100%',
-                fontSize: '35px',
-              }}
-              className='headerText'
-            >
-              CHECK ENGINE LIGHT ON?
-            </h1>
+            <h1 className='headerText checkEngine'>CHECK ENGINE LIGHT ON?</h1>
 
             <ion-icon
+              className='iconArrow'
               style={{
-                color: '#ff6200',
-                marginLeft: '10%',
-                display: 'inline-block',
                 marginTop: '3%',
+                color: '#ff6200',
               }}
               name='caret-forward-outline'
             ></ion-icon>
-            <p style={{ display: 'inline-block', color: 'white' }}>
+            <p
+              className='text-nowrap smallText'
+              style={{ display: 'inline-block', color: 'white' }}
+            >
               Results matter! We Win, when it matters most
             </p>
 
             <br />
             <>
               <ion-icon
-                style={{
-                  color: '#ff6200',
-                  marginLeft: '10%',
-                  display: 'inline-block',
-                }}
+                style={{ color: '#ff6200' }}
+                className='iconArrow'
                 name='caret-forward-outline'
               ></ion-icon>
-              <p style={{ display: 'inline-block', color: 'white' }}>
+              <p
+                className='text-nowrap smallText'
+                style={{ display: 'inline-block', color: 'white' }}
+              >
                 We will get you a Rental Car and Medical Care right away
               </p>
             </>

@@ -22,6 +22,29 @@
   width: 50%;
 }
 
+.iconArrow {
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.checkEngine {
+  color: white;
+  margin-left: 5%;
+  width: 100%;
+  font-size: 25px;
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .smallText {
+    font-size: 12px;
+  }
+  .checkEngine {
+    font-size: 20px;
+  }
+}
+
+/* mobile */
 @media (min-width: 320px) and (max-width: 480px) {
   .nomobile {
     display: none;

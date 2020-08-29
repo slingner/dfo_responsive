@@ -5,13 +5,14 @@ import Button from 'react-bootstrap/Button';
 export default function InjuryForm() {
   return (
     <Form
-      style={{
-        backgroundColor: 'white',
-        color: 'black',
-        textAlign: 'center',
-        padding: '35px',
-        width: 'auto',
-      }}
+      className='injuryForm1'
+      style={{ backgroundColor: 'white', color: 'black', padding: '15px' }}
+      // style={{
+      //   backgroundColor: 'white',
+      //   color: 'black',
+      //   textAlign: 'center',
+      //   padding: '35px',
+      // }}
     >
       <Form.Label
         style={{ fontFamily: `'Open Sans', sans-serif'`, fontWeight: '800' }}
