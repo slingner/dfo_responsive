@@ -1,0 +1,9 @@
+.mainLogo {
+  margin-left: 8%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-expand {
+    justify-content: center;
+  }
+}

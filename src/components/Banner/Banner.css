@@ -1,0 +1,33 @@
+.jumbotron {
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.jumbotron-fluid {
+  padding: 180px;
+}
+
+.headerText {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.injuryFormResponsive {
+  width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nomobile {
+    display: none;
+  }
+
+  .injuryFormResponsive {
+    width: 0px;
+  }
+}
